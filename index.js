@@ -20,7 +20,7 @@ const connectDB = require("./config/database")
 
 
 // variables
-const PORT = process.env.PORT || 3000;  // Use the port assigned by Render or default to 3000
+const PORT = process.env.PORT || 4040;  // Use the port assigned by Render or default to 3000
 const DBURL = "mongodb+srv://Kulturalbox:kulturalboxpassword123@cluster0.ohmgq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 // Connect to MongoDB
